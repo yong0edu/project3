@@ -1,0 +1,19 @@
+<html>
+
+<head>
+  <script>
+    var add = function() {
+ var tag = "";
+ tag += "<ul>";
+ tag += "<li>Test</li>";
+ tag += "</ul>";
+ document.body.innerHTML += tag;
+ };
+</script>
+</head>
+
+<body>
+  <input type="button" value="Tag Change" onclick="add()">
+</body>
+
+</html>
